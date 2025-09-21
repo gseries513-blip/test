@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  background: var(--secondary-background-color);
+
+  gap: 1em;
+}
+
+.text-logo {
+  font-family: var(--title-font-family);
+}
+
+.search-bar {
+  padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}

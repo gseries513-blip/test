@@ -1,0 +1,102 @@
+{
+  "categories": [
+    { "categoryId": 1001, "name": "Fiction" },
+    { "categoryId": 1002, "name": "Non-Fiction" },
+    { "categoryId": 1003, "name": "Mystery" },
+    { "categoryId": 1004, "name": "Romance" },
+    { "categoryId": 1005, "name": "Science Fiction" },
+    { "categoryId": 1006, "name": "Biography" }
+  ],
+  "books": [
+    {
+      "bookId": 2001,
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "price": 1699,
+      "isPublic": true,
+      "categoryId": 1001,
+      "image": "https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2002,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "price": 1599,
+      "isPublic": true,
+      "categoryId": 1002,
+      "image": "https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2003,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 1499,
+      "isPublic": true,
+      "categoryId": 1001,
+      "image": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2004,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 1299,
+      "isPublic": true,
+      "categoryId": 1004,
+      "image": "https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2005,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "price": 1899,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2006,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "price": 1599,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2007,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "price": 1499,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/1667088/pexels-photo-1667088.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2008,
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "price": 1399,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/1261180/pexels-photo-1261180.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2009,
+      "title": "Ender’s Game",
+      "author": "Orson Scott Card",
+      "price": 1699,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    },
+    {
+      "bookId": 2010,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "price": 1599,
+      "isPublic": true,
+      "categoryId": 1005,
+      "image": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=200&h=300&fit=crop"
+    }
+  ]
+}
