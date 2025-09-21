@@ -1,21 +1,75 @@
 .book-box {
-  display: flex;
-  flex-direction: column;
-  padding: 0.25em;
-  padding: 1em;
-  background-color: var(--card-background-color);
-
-  gap: 0.25em;
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-.book-title {
-  font-weight: bold;
-}
-
-.book-author {
-  font-style: italic;
+.book-box:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
 }
 
 .book-image {
-  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.book-box:hover .book-image img {
+  transform: scale(1.05);
+}
+
+.book-content {
+  padding: 1.5rem;
+}
+
+.book-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--default-text-color);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.book-author {
+  color: var(--neutral-color);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.book-price {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.book-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.book-actions .btn {
+  flex: 1;
+  min-width: 120px;
+}
+
+.read-now {
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.read-now:hover {
+  background: var(--primary-color);
+  color: white;
 }

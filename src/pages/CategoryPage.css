@@ -1,0 +1,17 @@
+.category-page {
+  min-height: calc(100vh - 200px);
+}
+
+.category-header {
+  background: white;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.category-header p {
+  font-size: 1.125rem;
+}
