@@ -119,6 +119,9 @@ body {
   font-size: var(--default-font-size);
   font-family: var(--default-font-family);
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* BUTTONS */

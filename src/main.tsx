@@ -3,7 +3,12 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./assets/global.css";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+const root = document.getElementById("root")!;
+root.style.height = "100vh";
+root.style.display = "flex";
+root.style.flexDirection = "column";
+
+ReactDOM.createRoot(root).render(
     <BrowserRouter>
         <App />
     </BrowserRouter>

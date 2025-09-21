@@ -1,7 +1,7 @@
 .site-footer {
   background: var(--header-bg);
   color: white;
-  margin-top: auto;
+  flex-shrink: 0;
 }
 
 .footer-content {
